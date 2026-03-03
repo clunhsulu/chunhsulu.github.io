@@ -39,7 +39,7 @@
 //取出資料,{根據繪圖區大小決定K棒數,k下線,始末位}(調整大小),fn確認TD點
 function fn取出資料()   {
   var ta=[];
-  t股號=fn讀取日K(ta);                                     //ta=取出資料
+  t股號=fnReadK(ta);                                     //ta=取出資料
   alert(t股號);
   kmz=ta.length-1;                                  //長為482,索引值為0~481,第一筆0未用,故為1~481
   let tb=[];
